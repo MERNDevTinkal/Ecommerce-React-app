@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --nav:#163d5c;
+    --fontStyle:'Bebas Neue', cursive;
+    
+}
+/* 'Teko', sans-serif */
+@media only screen and (max-width:424px){
+    #card-image{
+width: 11rem;
+    }
+    :root{
+        font-size: 11px;
+    }
+}
+body{
+    background-color: rgb(214, 214, 215);
+}
+@media only screen and (max-width:992px){
+    #detailAddedImage{
+        width: 100%;
+    }
+}
